@@ -9,11 +9,11 @@
 
 ### Analysis of Outcomes Based on Launch Date
    A good way analyze the play outcomes based on launch date was to use a Pivot table and a Pivot Chart.  The Pivot table uses the data form the Kickstarter table organized to filter based on the Parent Category field (theater) and a new field we created Year (based on launch date).  We were most concerned about the different outcomes throughout a calendar year so in the Rows section we used the Date Created Conversion represented by month field and outcomes in our columns section (excluded outcome "Live" because were interested in end results).  For values in the Pivot table, we used a count on the outcomes to give us the total values for each month based on outcomes.  To visualize our data from the Pivot table I created a Pivot Chart to allow flexibility when we filter for different years our Pivot chart will automatically change as well.
-    Reference Chart: Theater_Outcomes_vs_Launch.png https://raw.githubusercontent.com/ParkerRHiggins/kickstarter-analysis/main/Theater_Outcomes_vs_Launch.png
+![](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
    To analyze the different play outcomes based on the financial goal set we took a different approach by creating a new table and set up different currency ranges, or buckets, for our data to fall in (ex: $5000 to $9999).  To get the values for each bucket I used a CountIf formula to count the total number of plays that were successful, failed or canceled based on the goal bucket. Next, I summed the total amount of plays for each goal bucket and then calculated the percent of plays that were successful, failed or canceled.  Lastly, I created a table based on the outcomes and percent successful, failed or canceled by each goal bucket so that we can visualize the data and draw a conclusion.  
-    Reference Chart: Outcomes_vs_Goals.png https://raw.githubusercontent.com/ParkerRHiggins/kickstarter-analysis/main/Outcomes_vs_Goals.png
+![](Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
    For the most part, I didn't have many challenges or difficulties with this analysis project because I'm pretty experienced using Microsoft Excel.  I use Excel as one of my main tools for my job as a Reporting Analysis for a financial firm so a lot of this came natural to me.
